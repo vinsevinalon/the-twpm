@@ -2108,9 +2108,10 @@ product-info .loading-overlay:not(.hidden)~*,
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 0.9rem;
-  bottom: 0.8rem;
-  left: 2.2rem;
+  border: 2px solid #FFFFFF;
+  font-size: 0.8rem;
+  bottom: 0.1rem;
+  left: 1.5rem;
   line-height: calc(1 + 0.1 / var(--font-body-scale));
 }
 
@@ -2578,8 +2579,9 @@ product-info .loading-overlay:not(.hidden)~*,
 
 .header__icon,
 .header__icon--cart .icon {
-  height: 4.4rem;
-  width: 4.4rem;
+  height: 2.8rem;
+  width: 2.8rem;
+  color: #545454;
   padding: 0;
 }
 
